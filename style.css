@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: hsl(0, 100%, 74%);
+    background-image: url(./images/bg-intro-desktop.png);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.container {
+    width: 75%;
+    height: 500px;
+    margin: 50px auto;
+    display: flex;
+}
+
+.leftpart {
+    flex: 1;
+    height: 500px;
+
+}
+
+.rightpart {
+    flex: 1;
+    height: 500px;
+
+}
+
+.top {
+    background-color: hsl(248, 32%, 49%);
+    width: 80%;
+    margin: auto;
+    height: 50px;
+    margin-top: 40px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 10px;
+}
+
+.formcontainer {
+
+    width: 80%;
+    height: 325px;
+    background-color: white;
+    margin: 20px auto;
+    padding-left: 15px;
+}
+
+.content {
+    width: 60%;
+    height: 250px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 700;
+
+}
+
+p {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.valid {
+    display: inline-block;
+    width: 80%;
+    height: 40px;
+    margin: 10px;
+    padding-left: 15px;
+    border: 1px solid #DDDDDD;
+    border-radius: 10px;
+    outline: none;
+}
+
+button {
+
+    width: 85%;
+    height: 40px;
+    margin-left: 10px;
+    padding-left: 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    margin-top: 20px;
+    cursor: pointer;
+
+
+
+}
+
+p {
+    font-size: 10px;
+    text-align: center;
+}
+
+a {
+
+    color: red;
+}
+
+input:focus {
+    border: 1px solid #979797;
+}
+
+span {
+    color: hsl(225, 100%, 99%);
+    ;
+}
+
+button:hover {
+    background-color: hsl(154, 58%, 36%);
+}
+
+.error {
+    margin: 0%;
+    position: relative;
+    left: 50px;
+    color: red;
+    font-size: 10px;
+
+}
+
+input:invalid {
+    margin: 5px;
+
+}
+
+.errorinput {
+    background-image: url(./images/icon-error.svg);
+    background-position: 90% 50%;
+    background-size: 8% 25px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 80%;
+    height: 40px;
+    margin: 5px;
+    padding-left: 15px;
+    border: 1px solid #DDDDDD;
+    border-radius: 10px;
+    outline: none;
+}
