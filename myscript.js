@@ -17,7 +17,7 @@ for (let i = 0; i < inpt.length; i++) {
             inpt[i].className = 'valid';
         } else {
             showError();
-            formContainer.style.height = '365px';
+            formContainer.style.height = '370px';
         };
     });
 };
@@ -25,7 +25,7 @@ form.addEventListener('submit', function (event) {
 
     for (i = 0; i < inpt.length; i++) {
         if (!inpt[i].validity.valid) {
-            formContainer.style.height = '365px';
+            formContainer.style.height = '370px';
 
             showError();
             event.preventDefault();
