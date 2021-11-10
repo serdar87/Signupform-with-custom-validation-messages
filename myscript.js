@@ -26,22 +26,16 @@ form.addEventListener('submit', function (event) {
     for (i = 0; i < inpt.length; i++) {
         if (!inpt[i].validity.valid) {
             formContainer.style.height = '370px';
-
             showError();
             event.preventDefault();
         }
-
     }
-
-
-
 });
 
 function showError() {
     if (firstName.validity.valueMissing) {
         errorFirst.innerHTML = "First Name can not be empty";
         firstName.className = 'errorinput';
-
     }
     if (lastName.validity.valueMissing) {
         errorLast.innerHTML = "Last Name can not be empty";
@@ -59,6 +53,4 @@ function showError() {
         errorEmail.innerHTML = "Entered Value needs to be an email address";
         email.className = 'errorinput';
     }
-
-
 }
