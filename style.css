@@ -99,9 +99,6 @@ button {
     color: white;
     margin-top: 20px;
     cursor: pointer;
-
-
-
 }
 
 p {
@@ -110,8 +107,7 @@ p {
 }
 
 a {
-
-    color: red;
+   color: red;
 }
 
 input:focus {
