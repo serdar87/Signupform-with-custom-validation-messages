@@ -2,7 +2,6 @@
 Frontendmentor.io Challange-4
 ![desktop-preview](https://user-images.githubusercontent.com/83467033/141172741-5fb67170-6248-4bf4-b956-08b134eb2220.jpg)
 
-![Design preview for the Intro component with sign up form coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
 
